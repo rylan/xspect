@@ -1,0 +1,60 @@
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.2em;
+    font-weight: 500;
+    background: #ffffff url("./30_scaled.jpg") repeat fixed center;
+    color: white;
+}
+
+.title {
+    font-size: 8em;
+}
+
+.contact {
+    color: black;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    vertical-align: top;
+}
+.pad {
+  width: 480px;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+}
+
+.profile {
+    display: inline;
+    width: 72px;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 10px;
+    
+}
+
+.indent {
+    padding-left: 25px;
+}
+
+.displaytable {
+    display: table;
+}
+
+.displaycell {
+    display: table-cell
+}
+
+.vtop {
+    vertical-align: top;
+}
+
+.vmiddle {
+    vertical-align: middle;
+    
+}
+
+.radiology{
+    width: 450px;
+    padding: 0 40px;
+}
