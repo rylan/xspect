@@ -10,7 +10,9 @@ body {
     padding: 10px;
     margin: 10px;
 }
-
+p {
+    line-height: 1.5em;
+}
 .contact {
     color: black;
     padding: 10px;
