@@ -136,6 +136,7 @@ a.pure-button-primary {
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
+    background-size: cover;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -148,6 +149,10 @@ a.pure-button-primary {
 }
 
 .splash {
+    background-color: rgba(255,255,255,0.4);
+    display: table;
+    border-radius: 3px 3px;
+    padding: 10px;
     /* absolute center .splash within .splash-container */
     width: 80%;
     height: 50%;
