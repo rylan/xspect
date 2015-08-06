@@ -6,17 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Xspect Inc.</title>
     <meta name="description" content="A company specializing in acceptance testing and accreditation inspections of diagnostic radiology equipment.">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+    <link rel="dns-prefetch" href="https://yui.yahooapis.com"/>
+    <link rel="dns-prefetch" href="https://netdna.bootstrapcdn.com/"/>
+
+
+
+    <link rel="prefetch" href="https://yui.yahooapis.com/pure/0.6.0/pure-min.css" />
+    <link rel="prefetch" href="https://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+    <link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <div class="header">
+    <div class="header" role="banner">
         <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
             <a class="pure-menu-heading" href="">Xspect Inc.</a>
-
+            
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="#services" class="pure-menu-link">Services</a>
                 </li>
@@ -25,7 +35,7 @@
             </ul>
         </div>
     </div>
-
+    <div role="main">
     <div class="splash-container">
         <div class="splash">
             <h1 class="splash-head">Xspect Inc.</h1>
@@ -148,7 +158,7 @@
             </div>
         </div></a>
 
-        <div class="ribbon l-box-lrg pure-g">
+        <div class="ribbon l-box-lrg pure-g" role="complementary" aria-label="Contact information">
             <a id="contact"><h2 class="contact-head is-center">Contact Us</h2></a>
             
             <div class="pure-g">
@@ -157,7 +167,7 @@
                     <p>If Xspect Inc. can be beneficial to your hospital or clinic, please contact us to discuss how we may help you:</p>
                     </div>
                     <div class="contact-box pure-u-1 displaytable">
-                        <img class="profile displaycell" src="./alan.jpg">
+                        <img class="profile displaycell" src="./alan.jpg" alt="Alan Cottrell">
                         <address class="contact displaycell">
                                 Alan Cottrell, M.Sc., M.Inst.P., P.Phys <br>
                                 President <br>
@@ -166,7 +176,7 @@
                             </address>
                     </div>
                     <div class="contact-box pure-u-1 displaytable">
-                        <img class="profile displaycell" src="./jeff.jpg">
+                        <img class="profile displaycell" src="./jeff.jpg" alt="Jeff Frimeth">
                         <address class="contact displaycell">
                                 Jeff Frimeth, M.Sc., MCCPM<br>
                                 Physicist <br>
@@ -187,9 +197,10 @@
 
         </div>
 
-        <div class="footer l-box is-center">
+        <div class="footer l-box is-center" role="complementary" aria-label="Page footer">
             Xspect Inc.
         </div>
+    </div>
     </div>
 </body>
 
