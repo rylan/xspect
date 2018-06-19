@@ -131,7 +131,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('bag.jpg') center center no-repeat, #1f8dd6 ;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('bag-min.jpg') center center no-repeat, #1f8dd6 ;
     background-size: cover;
 
     z-index: 1;
